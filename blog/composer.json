@@ -36,7 +36,11 @@
         "kartik-v/yii2-editable": "dev-master",
         "wbraganca/yii2-dynamicform": "*",
         "pheme/yii2-settings": "*",
-        "codeception/codeception": "^2.5"
+        "codeception/codeception": "^2.5",
+        "mult1mate/cron-manager": "^1.1",
+        "symfony/process": "^3.4",
+        "zxbodya/yii2-gallery-manager": "*@dev",
+        "symfony/finder": "^3.4"
 
     },
     "require-dev": {
