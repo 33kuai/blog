@@ -29,7 +29,15 @@
         "kartik-v/yii2-ipinfo": "dev-master",
         "kartik-v/yii2-export": "dev-master",
         "kartik-v/yii2-builder": "dev-master",
-        "kartik-v/yii2-password": "dev-master"
+        "kartik-v/yii2-password": "dev-master",
+        "kartik-v/yii2-context-menu": "dev-master",
+        "kartik-v/yii2-label-inplace": "dev-master",
+        "kartik-v/yii2-detail-view": "dev-master",
+        "kartik-v/yii2-editable": "dev-master",
+        "wbraganca/yii2-dynamicform": "*",
+        "pheme/yii2-settings": "*",
+        "codeception/codeception": "^2.5"
+
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",

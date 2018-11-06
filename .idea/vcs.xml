@@ -3,10 +3,15 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/blog/vendor/kartik-v/yii2-builder" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/blog/vendor/kartik-v/yii2-context-menu" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/blog/vendor/kartik-v/yii2-datecontrol" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/blog/vendor/kartik-v/yii2-detail-view" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/blog/vendor/kartik-v/yii2-dynagrid" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/blog/vendor/kartik-v/yii2-editable" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/blog/vendor/kartik-v/yii2-export" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/blog/vendor/kartik-v/yii2-helpers" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/blog/vendor/kartik-v/yii2-ipinfo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/blog/vendor/kartik-v/yii2-label-inplace" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/blog/vendor/kartik-v/yii2-password" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/blog/vendor/kartik-v/yii2-sortable" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/blog/vendor/kartik-v/yii2-tree-manager" vcs="Git" />
