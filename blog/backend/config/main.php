@@ -11,7 +11,20 @@ return [
     'basePath' => dirname(__DIR__),
     'controllerNamespace' => 'backend\controllers',
     'bootstrap' => ['log'],
-    'modules' => [],
+    'modules' => [
+        'dynagrid'=> [
+            'class'=>'\kartik\dynagrid\Module',
+        ],
+        'gridview'=> [
+            'class'=>'\kartik\grid\Module',
+        ],
+        'datecontrol' => [
+            'class' => '\kartik\datecontrol\Module'
+        ],
+        'treemanager' => [
+            'class' => '\kartik\tree\Module',
+        ],
+    ],
     'components' => [
         'request' => [
             'csrfParam' => '_csrf-backend',
@@ -37,14 +50,14 @@ return [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
-        /*
+
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
             ],
         ],
-        */
+
     ],
     'params' => $params,
 ];

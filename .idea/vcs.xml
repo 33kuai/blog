@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/blog/vendor/kartik-v/yii2-builder" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/blog/vendor/kartik-v/yii2-datecontrol" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/blog/vendor/kartik-v/yii2-dynagrid" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/blog/vendor/kartik-v/yii2-export" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/blog/vendor/kartik-v/yii2-ipinfo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/blog/vendor/kartik-v/yii2-password" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/blog/vendor/kartik-v/yii2-sortable" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/blog/vendor/kartik-v/yii2-tree-manager" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/blog/vendor/kartik-v/yii2-widget-activeform" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/blog/vendor/kartik-v/yii2-widget-select2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/blog/vendor/kartik-v/yii2-widget-switchinput" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/blog/vendor/kartik-v/yii2-widgets" vcs="Git" />
+  </component>
+</project>
