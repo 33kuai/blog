@@ -57,7 +57,9 @@ return [
             'rules' => [
             ],
         ],
-
+        'authManager' => [
+            'class' => 'common\core\rbac\DbManager',
+        ],
     ],
     'params' => $params,
 ];

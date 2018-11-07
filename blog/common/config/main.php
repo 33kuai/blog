@@ -7,7 +7,8 @@ return [
     'vendorPath' => dirname(dirname(__DIR__)) . '/vendor',
     'components' => [
         'cache' => [
-            'class' => 'yii\caching\FileCache',
+//            'class' => 'yii\caching\FileCache',
+            'class' => 'yii\redis\Cache',
         ],
         'queue' => [
             'class' => \yii\queue\redis\Queue::class,

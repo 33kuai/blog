@@ -42,7 +42,10 @@
         "zxbodya/yii2-gallery-manager": "*@dev",
         "symfony/finder": "^3.4",
         "lajax/yii2-translate-manager": "^1.7",
-        "alexandernst/yii2-device-detect": "0.0.12"
+        "alexandernst/yii2-device-detect": "0.0.12",
+        "dmstr/yii2-adminlte-asset": "^2.6",
+        "marena/yii2-enhanced-gii": "^1.0",
+        "ignatenkovnikita/yii2-swagger": "^1.2"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",
