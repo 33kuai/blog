@@ -7,7 +7,8 @@
 use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
 use yii\captcha\Captcha;
-
+use kartik\widgets\FileInput;
+use yii\helpers\Url;
 $this->title = 'Contact';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
@@ -22,6 +23,9 @@ $this->params['breadcrumbs'][] = $this->title;
         <div class="col-lg-5">
             <?php $form = ActiveForm::begin(['id' => 'contact-form']); ?>
 
+                <?php echo $form->field($model, 'avatar')->widget(FileInput::classname(), ['options' => ['accept' => 'image/*'],
+                    'pluginOptions' => ['uploadUrl' => Url::to(['upload']), 'uploadAsync'=> true,'maxFileCount' => 10,],
+                    'pluginEvents'  =>  ['filebatchselected' =>  "function(){ $(this).fileinput('upload');}" ]]);?>
                 <?= $form->field($model, 'name')->textInput(['autofocus' => true]) ?>
 
                 <?= $form->field($model, 'email') ?>

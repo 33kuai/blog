@@ -15,6 +15,7 @@ class ContactForm extends Model
     public $subject;
     public $body;
     public $verifyCode;
+    public $avatar;
 
 
     /**
@@ -24,11 +25,12 @@ class ContactForm extends Model
     {
         return [
             // name, email, subject and body are required
-            [['name', 'email', 'subject', 'body'], 'required'],
+            //[['name', 'email', 'subject', 'body'], 'required'],
             // email has to be a valid email address
             ['email', 'email'],
             // verifyCode needs to be entered correctly
             ['verifyCode', 'captcha'],
+            ['avatar','file','extensions' => ['png', 'jpg', 'gif'],],
         ];
     }
 
