@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9b76cc92d5ae000ed74fd74f2f9e1d50",
+    "content-hash": "dc7c32b2a5150104e9b77db24955fc0e",
     "packages": [
         {
             "name": "alexandernst/yii2-device-detect",
@@ -1166,6 +1166,51 @@
             "time": "2018-05-16T17:37:13+00:00"
         },
         {
+            "name": "feehi/yii2-swoole",
+            "version": "0.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/liufee/yii2-swoole.git",
+                "reference": "9d3c81671e7622b277264742872aaff8fc3cc7b4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/liufee/yii2-swoole/zipball/9d3c81671e7622b277264742872aaff8fc3cc7b4",
+                "reference": "9d3c81671e7622b277264742872aaff8fc3cc7b4",
+                "shasum": ""
+            },
+            "suggest": {
+                "feehi/yii2-swoole": "Need extension swoole version >= 1.9;Recommend with php >= 7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "feehi\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "liufee",
+                    "email": "job@feehi.com",
+                    "homepage": "http://blog.feehi.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "yii2 swoole,让yii2跑在swoole上",
+            "homepage": "http://blog.feehi.com",
+            "keywords": [
+                "swoole",
+                "yii2",
+                "yii2 swoole",
+                "yii2-swoole"
+            ],
+            "time": "2017-12-28T03:01:40+00:00"
+        },
+        {
             "name": "fortawesome/font-awesome",
             "version": "v4.7.0",
             "source": {
@@ -2147,12 +2192,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kartik-v/yii2-dynagrid.git",
-                "reference": "33303f9dad228272433a153ccf74de6788c51864"
+                "reference": "60bdcb8f012557ce4930700f043a782edc56ad1d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kartik-v/yii2-dynagrid/zipball/33303f9dad228272433a153ccf74de6788c51864",
-                "reference": "33303f9dad228272433a153ccf74de6788c51864",
+                "url": "https://api.github.com/repos/kartik-v/yii2-dynagrid/zipball/60bdcb8f012557ce4930700f043a782edc56ad1d",
+                "reference": "60bdcb8f012557ce4930700f043a782edc56ad1d",
                 "shasum": ""
             },
             "require": {
@@ -2199,7 +2244,7 @@
                 "widget",
                 "yii2"
             ],
-            "time": "2018-11-05T10:59:31+00:00"
+            "time": "2018-11-07T17:40:02+00:00"
         },
         {
             "name": "kartik-v/yii2-editable",
@@ -2260,12 +2305,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kartik-v/yii2-export.git",
-                "reference": "8be0ef1b1d450e94529e1dd2e21da31003d17838"
+                "reference": "e4a1e46606a378ea3357184be9d40f33bc7ac39a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kartik-v/yii2-export/zipball/8be0ef1b1d450e94529e1dd2e21da31003d17838",
-                "reference": "8be0ef1b1d450e94529e1dd2e21da31003d17838",
+                "url": "https://api.github.com/repos/kartik-v/yii2-export/zipball/e4a1e46606a378ea3357184be9d40f33bc7ac39a",
+                "reference": "e4a1e46606a378ea3357184be9d40f33bc7ac39a",
                 "shasum": ""
             },
             "require": {
@@ -2312,7 +2357,7 @@
                 "xlsx",
                 "yii2"
             ],
-            "time": "2018-11-05T11:00:23+00:00"
+            "time": "2018-11-07T17:39:43+00:00"
         },
         {
             "name": "kartik-v/yii2-grid",
