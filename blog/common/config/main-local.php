@@ -36,11 +36,11 @@ return [
 //            'viewPath' => '@common/mail',
 //            'useFileTransport' => false,
 //        ],
-//        'elasticsearch' => [
-//            'class' => 'yii\elasticsearch\Connection',
-//            'nodes' => [
-//                // ['http_address' => '127.0.0.1:9200'],
-//            ]
-//        ],
+        'elasticsearch' => [
+            'class' => 'yii\elasticsearch\Connection',
+            'nodes' => [
+                 ['http_address' => '127.0.0.1:9200'],
+            ]
+        ],
     ],
 ];
